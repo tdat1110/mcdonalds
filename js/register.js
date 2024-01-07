@@ -21,7 +21,7 @@ function handleRegister(e) {
        
         for (let index = 0; index < users.length; index++) {
             const element = users[index];
-            if(element.email === user.mail) {
+            if(element.email === user.email) {
                 alert('Bi trung email!');
                 return;
             }

@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  nav {
+    background-color: rgb(255, 255, 255);
+    
+  }
+  
+  .container {
+    border-radius: 10px;
+  }
+  
+  .wrapper-nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .nutlink {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px 20px;
+    font-size: 20px;
+  }
+  .doimau a:hover{color:#e1ff00}
+  .download3 {
+  display: inline-block;
+  float: left;
+  width: 150px;
+  height: 48px;
+  background-color: #BD0017;
+  position: relative;
+  margin: 0 0 0 0;
+  border-radius: 50px;
+  }
+  .download3 img {
+    width: 36px;
+    height: auto;
+    margin: 6px 0 0 6px;
+  }
+  .download3 p {
+    color: white;
+    font-size: 12px;
+    float: left;
+    top: 4px;
+    left: 52px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+  }
+  .download3 p span {
+     color: #ffc836;
+     font-size: 16px;
+  }
+  .download4 {
+    display: inline-block;
+    float: left;
+    width: 150px;
+    height: 48px;
+    background-color: #BD0017;
+    position: relative;
+    border-radius: 50px;
+    margin-left: 10px;
+    }
+    .download4 img {
+      width: 36px;
+      height: auto;
+      margin: 6px 0 0 6px;
+    }
+    .download4 p {
+      color: white;
+      font-size: 12px;
+      float: left;
+      top: 4px;
+      left: 52px;
+      position: absolute;
+      margin: 0;
+      padding: 0;
+      line-height: 1.4;
+    }
+    .download4 p span {
+       color: #ffc836;
+       font-size: 16px;
+    }
+    .nensanpham {
+        width: 50%;
+        height: 100%;
+        position: relative;
+    }
+    .sanpham {
+        position: absolute;
+        top: 10%;
+        margin-left:170px;
+        display: flex;
+    }
+    .order {
+        width: 500px;
+        height: 160px;
+        margin-top: 10%;
+        margin-left: 100px;
+        margin-bottom: 15px;
+    }
+    .order h3 {
+        font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff6f7;
+    }
+    .order a {
+    font-size: 15px;
+    background: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    padding-right: 60px;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-left: 60px;
+    padding-bottom: 15px;
+    background-color: #bd001600;
+    }
+    .order p {
+    font-size: 36px;
+    color: #ffffff;
+    line-height: 1.34;
+    font-weight: 700;
+    }
